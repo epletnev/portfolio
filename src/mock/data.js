@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'mypic.jpg',
   paragraphOne:
-    'Professional self-taught Web Developer with experience in HTML, CSS, Javascript, React, Node.js.',
+    'Professional Front End Web Developer with experience building web applications using HTML, CSS, Javascript and creating attractive user interfaces.',
   paragraphTwo:
     'In addition to programming knowledge and skills, developed a vast amount of transferable skills and abilities from years of client support experience in both private and public sectors.',
   paragraphThree:
@@ -69,7 +69,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/evgeny-pletnev-b94a2756',
+      url: 'https://www.linkedin.com/in/epletnev',
     },
   ],
 };
