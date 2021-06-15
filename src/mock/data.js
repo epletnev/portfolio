@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Evgeny Pletnev | Developer', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
-  description: 'Welcome to my website', // e.g: Welcome to my website
+  title: 'Evgeny Pletnev | Developer',
+  lang: 'en',
+  description: 'Welcome to my website',
 };
 
 // HERO DATA
@@ -19,12 +19,13 @@ export const heroData = {
 export const aboutData = {
   img: 'mypic.jpg',
   paragraphOne:
-    'Professional Front End Web Developer with experience building web applications using HTML, CSS, Javascript and creating attractive user interfaces.',
+    'Professional Software Developer with experience building web applications using HTML, CSS, Javascript, React and creating attractive user interfaces.',
   paragraphTwo:
     'In addition to programming knowledge and skills, developed a vast amount of transferable skills and abilities from years of client support experience in both private and public sectors.',
   paragraphThree:
     'Such examples include team work, communication and collaboration, personal motivation and organisation, problem solving and time management.',
-  resume: '', // if no resume, the button will not show up
+  resume:
+    'https://docs.google.com/document/d/11OAxs-hvQRmMuVjyF7B4KD3SuFBnTmXXllaKqi_PPwI/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -70,6 +71,11 @@ export const footerData = {
       id: nanoid(),
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/epletnev',
+    },
+    {
+      id: nanoid(),
+      name: 'twitter',
+      url: 'https://twitter.com/eapletnev',
     },
   ],
 };
