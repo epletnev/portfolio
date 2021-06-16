@@ -30,19 +30,28 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  // {
+  //       id: nanoid(),
+  //       img: 'project1.jpeg',
+  //       title: 'SmartBrain',
+  //       info: "Smartbrain App allows users to detect faces in pictures using Clarifai's AI API. It has a Register and Sign In system and a basic profile that counts and displays user submissions. For security, passwords are hashed using Bcrypt.",
+  //       info2: '',
+  //       url: 'https://my-smart-face-app.herokuapp.com',
+  //       repo: 'https://github.com/epletnev/face-recognition-brain', // if no repo, the button will not show up
+  //   },
   {
     id: nanoid(),
-    img: 'project1.png',
-    title: 'SmartBrain',
+    img: 'project1.jpeg',
+    title: 'UK Travel Swap',
     info:
-      "Smartbrain App allows users to detect faces in pictures using Clarifai's AI API. It has a Register and Sign In system and a basic profile that counts and displays user submissions. For security, passwords are hashed using Bcrypt.",
+      'The app allows users to search and contribute itineraries for UK-based trips, in order to make UK travel more accessible. Tech Stack: Next.js, PostgreSQL, React Leaflet, Cypress, Styled components. Deployed on Vercel, database hosted on Heroku.',
     info2: '',
-    url: 'https://my-smart-face-app.herokuapp.com',
-    repo: 'https://github.com/epletnev/face-recognition-brain', // if no repo, the button will not show up
+    url: 'https://final-project-rase.vercel.app',
+    repo: 'https://github.com/fac21/final-project-RASE', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project2.png',
+    img: 'project2.jpeg',
     title: 'RoboFriends',
     info:
       'The app fetches a list of users from the JSON placeholder API and then populates the page with user cards. For the user cards, the robohash API is used to fetch and display a random robot image for each user. The result can then be searched using the search field, which will match the user input to the user names.',
