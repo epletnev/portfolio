@@ -54,10 +54,10 @@ export const projectsData = [
     img: 'project2.jpeg',
     title: 'Inclusion Labs',
     info:
-      'The app allows users to search and contribute itineraries for UK-based trips, in order to make UK travel more accessible. Tech Stack: Next.js, PostgreSQL, React Leaflet, Cypress, Styled components. Deployed on Vercel, database hosted on Heroku.',
+      'Self-assessment app for schools to conduct an audit into how they are meeting different impact areas in terms of diversity, equity and inclusion. Tech Stack: Next.js, Supabase for authentication and database. Deployed on Netlify.',
     info2: '',
-    url: 'https://final-project-rase.vercel.app',
-    repo: 'https://github.com/fac21/final-project-RASE', // if no repo, the button will not show up
+    url: 'https://inclusionlabs.netlify.app',
+    repo: 'https://github.com/tech-for-better/inclusion-labs', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
