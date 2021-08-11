@@ -30,15 +30,16 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
-  // {
-  //       id: nanoid(),
-  //       img: 'project1.jpeg',
-  //       title: 'SmartBrain',
-  //       info: "Smartbrain App allows users to detect faces in pictures using Clarifai's AI API. It has a Register and Sign In system and a basic profile that counts and displays user submissions. For security, passwords are hashed using Bcrypt.",
-  //       info2: '',
-  //       url: 'https://my-smart-face-app.herokuapp.com',
-  //       repo: 'https://github.com/epletnev/face-recognition-brain', // if no repo, the button will not show up
-  //   },
+  {
+    id: nanoid(),
+    img: 'project1.jpeg',
+    title: 'SmartBrain',
+    info:
+      "Smartbrain App allows users to detect faces in pictures using Clarifai's AI API. It has a Register and Sign In system and a basic profile that counts and displays user submissions. For security, passwords are hashed using Bcrypt.",
+    info2: '',
+    url: 'https://my-smart-face-app.herokuapp.com',
+    repo: 'https://github.com/epletnev/face-recognition-brain', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'project1.jpeg',
