@@ -32,7 +32,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project1.jpeg',
+    img: 'project4.jpeg',
     title: 'SmartBrain',
     info:
       "Smartbrain App allows users to detect faces in pictures using Clarifai's AI API. It has a Register and Sign In system and a basic profile that counts and displays user submissions. For security, passwords are hashed using Bcrypt.",
