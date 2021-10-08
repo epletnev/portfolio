@@ -24,8 +24,7 @@ export const aboutData = {
     'In addition to programming knowledge and skills, developed a vast amount of transferable skills and abilities from years of client support experience in both private and public sectors.',
   paragraphThree:
     'Such examples include team work, communication and collaboration, personal motivation and organisation, problem solving and time management.',
-  resume:
-    'https://docs.google.com/document/d/11OAxs-hvQRmMuVjyF7B4KD3SuFBnTmXXllaKqi_PPwI/edit?usp=sharing', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
