@@ -51,16 +51,6 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project2.jpeg',
-    title: 'Inclusion Labs',
-    info:
-      'Self-assessment app for schools to conduct an audit into how they are meeting different impact areas in terms of diversity, equity and inclusion. Tech Stack: Next.js, Supabase for authentication and database. Deployed on Netlify.',
-    info2: '',
-    url: 'https://inclusionlabs.netlify.app',
-    repo: 'https://github.com/tech-for-better/inclusion-labs', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'project3.jpeg',
     title: 'RoboFriends',
     info:
