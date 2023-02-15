@@ -29,26 +29,26 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
-  {
-    id: nanoid(),
-    img: 'project4.jpeg',
-    title: 'SmartBrain',
-    info:
-      "Smartbrain App allows users to detect faces in pictures using Clarifai's AI API. It has a Register and Sign In system and a basic profile that counts and displays user submissions. For security, passwords are hashed using Bcrypt.",
-    info2: '',
-    url: 'https://my-smart-face-app.herokuapp.com',
-    repo: 'https://github.com/epletnev/face-recognition-brain', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project1.jpeg',
-    title: 'UK Travel Swap',
-    info:
-      'The app allows users to search and contribute itineraries for UK-based trips, in order to make UK travel more accessible. Tech Stack: Next.js, PostgreSQL, React Leaflet, Cypress, Styled components. Deployed on Vercel, database hosted on Heroku.',
-    info2: '',
-    url: 'https://final-project-rase.vercel.app',
-    repo: 'https://github.com/fac21/final-project-RASE', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project4.jpeg',
+  //   title: 'SmartBrain',
+  //   info:
+  //     "Smartbrain App allows users to detect faces in pictures using Clarifai's AI API. It has a Register and Sign In system and a basic profile that counts and displays user submissions. For security, passwords are hashed using Bcrypt.",
+  //   info2: '',
+  //   url: 'https://my-smart-face-app.herokuapp.com',
+  //   repo: 'https://github.com/epletnev/face-recognition-brain', // if no repo, the button will not show up
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: 'project1.jpeg',
+  //   title: 'UK Travel Swap',
+  //   info:
+  //     'The app allows users to search and contribute itineraries for UK-based trips, in order to make UK travel more accessible. Tech Stack: Next.js, PostgreSQL, React Leaflet, Cypress, Styled components. Deployed on Vercel, database hosted on Heroku.',
+  //   info2: '',
+  //   url: 'https://final-project-rase.vercel.app',
+  //   repo: 'https://github.com/fac21/final-project-RASE', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
     img: 'project3.jpeg',
