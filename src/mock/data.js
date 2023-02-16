@@ -51,6 +51,16 @@ export const projectsData = [
   // },
   {
     id: nanoid(),
+    img: 'project5.jpeg',
+    title: 'ChatGPT Clone',
+    info:
+      "A clone of ChatGPT user interface, using React and ChatGPT's own APIs. This powerful app can answer questions, translate text, convert code from one language to another, and more. You can ask the AI just about any question and get a fairly human-sounding response.",
+    info2: '',
+    url: 'https://chatgpt-clone-app.netlify.app',
+    repo: 'https://github.com/epletnev/chatgpt-clone-app', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project3.jpeg',
     title: 'RoboFriends',
     info:
