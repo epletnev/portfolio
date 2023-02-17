@@ -61,6 +61,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'project6.jpeg',
+    title: 'SkyWave Restaurant',
+    info:
+      'Restaurant app project implemented using React, Hooks, Router, Lazy, Redux architecture, Bootstrap, HTML and Sass.',
+    info2: '',
+    url: 'https://sky-wave-restaurant.netlify.app',
+    repo: 'https://github.com/epletnev/sky-wave', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project3.jpeg',
     title: 'RoboFriends',
     info:
